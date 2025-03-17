@@ -1,22 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-br">              
     <head>
-        <title>sintaxe basica </title>
+        <title>sintaxe basica</title>
         <link rel="stylesheet" type="text/css">
-        <script src-="jquery.js"></script>
+        <script src="jquery.js"></script>
         <script>
 
         </script>
-     </head>
-     <body>
-        <div> class="site">
-                 <div>
-        
-                 <div>
-                </div>
+        <style>
+            .site{
+                width:1000px;
+                height:500px;
+                background-color:rgb(255, 0, 123);
+            }
+            .header{
+                width:inherit;
+                height:100px;
+                background-color:rgb(234, 0, 255);
+            
+            }
+            .main{
+                width:inherit;
+                height:350px;
+                background-color:rgb(255, 0, 68);
+            
+            }
+            .footer{
+                width:inherit;
+                height:50px;
+                background-color:rgb(255, 0, 123);
+            }
+            .esquerda{ 
+                width:20%;
+                height:inherit;
+                background-color:rgb(255, 0, 204);
+                display:inline-block;
+                float:right;
+                 border-radius:100%;
 
-                <div>
-                
-                </div>
+
+            }
+            .centro{
+                width:60%;
+                height:inherit;
+                background-color:rgb(195, 0, 255);
+                display:inline-block;
+                float:right;
+
+            }
+            .direita{
+                width:20%;
+                height:inherit;
+                background-color:rgb(251, 0, 255);
+                display:inline-block;
+                float:right;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="site">
+            <div class="header">
+           
+            </div>
+            <div class="main">
+                <div class="esquerda"></div>
+                <div class="centro"></div>
+                <div class="direita"></div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
     </body>
 </html>

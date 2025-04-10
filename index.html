@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ TYPE html>
 <html lang="pt-br">              
     <head>
         <title>sintaxe basica</title>
@@ -16,7 +16,7 @@
             .header{
                 width:inherit;
                 height:100px;
-                background-color:rgb(234, 0, 255);
+                background-color:rgb(186, 34, 36);
             
             }
             .main{
@@ -28,20 +28,20 @@
             .footer{
                 width:inherit;
                 height:50px;
-                background-color:rgb(255, 0, 123);
+                background-color:rgb(186, 34, 36);
             }
             .esquerda{ 
                 width:20%;
                 height:inherit;
-                background-color:rgb(255, 0, 204);
+                background-color:rgb(250, 14, 10);
                 display:inline-block;
                 float:right;
                 
 
             }
             .centro{
-                width:200px;
-                height:200px;
+                width:600px;
+                height:inherit;
                 background-image:url ('');
                 display:inline-block;
                 float:right;
@@ -51,11 +51,28 @@
             .direita{
                 width:20%;
                 height:inherit;
-                background-color:rgb(242, 101, 244);
+                background-color:rgb(250, 14, 10);
                 display:inline-block;
                 float:right;
 
+            }.foto_esquerda{ 
+                width:100px;
+                height:100px;
+                background-image: url("https://bordalo.observador.pt/v2/rs:fill:900/c:1333:1333:nowe:333:0/q:70/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2025/03/22045652/44633363.jpg");
+                margin-top:125px ;
+                margin-left:50px ;
+
+                
             }
+            .foto_direita{
+                width:100px;
+                height:100px;
+                background-image: url("https://cdn-4.motorsport.com/images/amp/6xER13r0/s1000/lewis-hamilton-ferrari-sf25.jpg");
+                margin-top:125px ;
+                margin-left:50px 
+               
+            }
+        
         </style>
     </head>
     <body>
@@ -65,14 +82,14 @@
             </div>
             <div class="main">
                 <div class="esquerda">
-                    <input type="image" src="https://assets.turbologo.com/blog/pt/2019/10/19133707/ferrari-logo-illustration-958x575.jpg" width="170px" height="170px">
+                     <div class="foto_esquerda"></div>
                 </div>
                 <div class="centro"></div>
                 <div class="direita">
-                    <img src="https://images.ps-aws.com/c?url=https%3A%2F%2Fd3cm515ijfiu6w.cloudfront.net%2Fwp-content%2Fuploads%2F2025%2F02%2F01142453%2Flewis-hamilton-charles-leclerc-ferrari-f1-2025.jpg" width="410px" height="250px">
+                    <div class="foto_direita"></div>
                 </div>
             </div>
-            <div class="footer">
+            <div class="footer"> 
 
             </div>
         </div>
